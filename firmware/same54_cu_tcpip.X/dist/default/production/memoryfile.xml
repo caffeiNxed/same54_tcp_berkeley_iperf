@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/same54_cu_tcpip.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>1048576</length>
+      <used>125909</used>
+      <free>922667</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>262144</length>
+      <used>10774</used>
+      <free>251370</free>
+    </memory>
+  </executable>
+</project>
