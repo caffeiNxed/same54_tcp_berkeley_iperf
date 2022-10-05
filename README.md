@@ -40,7 +40,7 @@ The project has been tested in the following versions:
 
 
 
-## Running the Code (as needed):
+## Running the Code:
 
 The SAME54 TCP server should start up as soon as power is applied.
 
