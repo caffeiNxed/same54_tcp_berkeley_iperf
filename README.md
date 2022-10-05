@@ -46,6 +46,7 @@ The SAME54 TCP server should start up as soon as power is applied.
 
 1. Open a terminal application such as PuTTY or TeraTerm.
 2. Power up the SAME54 Curiosity Ultra. The following should show:
+
 ![demo](images/TerminalCapture.PNG)
 
 3. From the client machine, compile the client program with
@@ -54,6 +55,7 @@ gcc -o client berkeleyAPIclient.c
 ./client
 5. The client program will echo the data being sent by the server. This may be further verified by observing the Wireshark capture.
 It should be similar to the stream below:
+
 ![pcap](images/WiresharkCapture.PNG)
 
 
