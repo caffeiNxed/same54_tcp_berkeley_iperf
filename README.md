@@ -50,9 +50,17 @@ The SAME54 TCP server should start up as soon as power is applied.
 ![demo](images/TerminalCapture.PNG)
 
 3. From the client machine, compile the client program with
+
+
 gcc -o client berkeleyAPIclient.c
+
+
 4. Run the client with
+
+
 ./client
+
+
 5. The client program will echo the data being sent by the server. This may be further verified by observing the Wireshark capture.
 It should be similar to the stream below:
 
