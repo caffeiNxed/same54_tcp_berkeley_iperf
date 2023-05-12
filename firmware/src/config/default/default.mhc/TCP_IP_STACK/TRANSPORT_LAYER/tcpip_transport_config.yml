@@ -19,4 +19,4 @@ children:
       - type: Dynamic
         attributes: {id: tcpip_transport_config, value: 'true'}
 - type: ElementPosition
-  attributes: {x: '20', y: '20', id: tcpip_transport_config}
+  attributes: {x: '24', y: '20', id: tcpip_transport_config}

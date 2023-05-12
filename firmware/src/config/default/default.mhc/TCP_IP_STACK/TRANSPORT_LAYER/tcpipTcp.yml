@@ -26,7 +26,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: tcpipTcp, value: '21440'}
+        attributes: {id: tcpipTcp, value: '27620'}
   - type: Integer
     attributes: {id: TCPIP_TCP_SOCKET_DEFAULT_TX_SIZE}
     children:

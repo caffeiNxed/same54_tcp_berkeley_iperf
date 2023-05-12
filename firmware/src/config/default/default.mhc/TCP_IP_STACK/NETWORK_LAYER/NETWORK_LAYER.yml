@@ -3,4 +3,4 @@ type: GroupComponent
 attributes: {displayName: NETWORK LAYER, id: NETWORK LAYER}
 children:
 - type: ElementPosition
-  attributes: {x: '580', y: '20', id: NETWORK LAYER}
+  attributes: {x: '581', y: '20', id: NETWORK LAYER}

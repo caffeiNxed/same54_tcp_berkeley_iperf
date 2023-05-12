@@ -11,6 +11,20 @@ children:
       children:
       - type: Dynamic
         attributes: {id: drvExtPhyKsz8061, value: GMAC}
+  - type: Integer
+    attributes: {id: DRV_ETHPHY_NEG_INIT_TMO}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Integer
+    attributes: {id: TCPIP_INTMAC_PHY_LINK_INIT_DELAY}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2000'}
 - type: Attachments
   children:
   - type: DirectCapability

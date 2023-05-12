@@ -238,14 +238,15 @@ void APP_Tasks(void) {
             break;
         case APP_BSD_OPERATION:
         {
-            int length, j;
             struct sockaddr_in addRemote;
-            int addrlen = sizeof (struct sockaddr_in);
-            char bfr[2880];
+            int addrlen = sizeof (struct sockaddr_in), length = 0;
+            char bfr[1440];
             
             // Create dummy data
             memset(bfr,';',sizeof(bfr));
-            bfr[2880] = '\0';
+            bfr[0]= 'w';
+            //bfr[1440] = '\0';
+            bfr[1439] = 'x';
 
             for (i = 0; i < MAX_CLIENT; i++) {
                 // Accept any pending connection requests
